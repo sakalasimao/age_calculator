@@ -4,15 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
   <title>Age calculator app</title>
 
 </head>
 <body>
 
-<div class="container">
-  
-</div>
+  <main class="container">
+
+    <div class="container-content">
+      <div class="date">
+
+        <div class="input">
+          <label for="dayInput">DAY</label>
+          <input type="text" id="dayInput" placeholder="DD">
+          <label  class="error">error</label>
+        </div>
+        <div class="input">
+          <label for="mouthInput">MONTH</label>
+          <input type="text" id="mouthInput" placeholder="MM">
+          <label  class="error">error</label>
+        </div>
+        <div class="input">
+          <label for="yearInput">YEAR</label>
+          <input type="text" id="yearInput" placeholder="YYYY">
+          <label  class="error">error</label>
+        </div>
+        
+      </div>
+
+      <div class="btn"><div class="line"></div> <button class="btn_calc"><img src="assets/images/icon-arrow.svg" alt="arrow" ></button></div>
+      
+      <div class="res">
+        <div class="years_res"> <span>--</span> years</div>
+        <div class="months_res"><span>--</span> months</div>
+        <div class="days_res"><span>--</span> days</div>
+      </div>
+      
+    </div>
+
+  </main>
   
 </body>
 </html>

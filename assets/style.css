@@ -2,4 +2,101 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .container-content {
+  width: 700px;
+  height: 500px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px 15px 190px 15px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .container-content .btn {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.container .container-content .btn .line {
+  width: 500px;
+  background-color: none;
+  border-bottom: 1px solid hsl(0, 0%, 86%);
+}
+.container .container-content .btn .btn_calc {
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+.container .container-content .btn .btn_calc img {
+  width: 35px;
+}
+.container .container-content .btn .btn_calc:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+.container .container-content .date {
+  display: flex;
+}
+.container .container-content .date .input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container .container-content .date .input label {
+  font-weight: bold;
+  font-size: 12px;
+  color: hsl(0, 1%, 44%);
+  letter-spacing: 2px;
+}
+.container .container-content .date .input input {
+  margin-right: 30px;
+  margin-left: 5px;
+  width: 120px;
+  height: 50px;
+  border: 1px solid hsl(0, 0%, 86%);
+  outline-color: hsl(259, 100%, 65%);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  color: hsl(0, 0%, 8%);
+}
+.container .container-content .date .input input::-moz-placeholder {
+  color: hsl(0, 1%, 44%);
+}
+.container .container-content .date .input input::placeholder {
+  color: hsl(0, 1%, 44%);
+}
+.container .container-content .date .input .error {
+  font-weight: lighter;
+  width: 120px;
+  text-align: center;
+  max-height: 1px;
+  color: hsl(0, 100%, 67%);
+  font-size: 12px;
+  letter-spacing: normal;
+  display: none;
+}
+.container .container-content .res div {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+}
+.container .container-content .res div span {
+  letter-spacing: 5px;
+  color: hsl(259, 100%, 65%);
 }/*# sourceMappingURL=style.css.map */
