@@ -1,3 +1,38 @@
+@media screen and (max-width: 740px) {
+  .container {
+    background-color: 100vw;
+  }
+  .container-content {
+    width: 90%;
+    margin: 15px;
+    padding: 20px 20px 20px 20px !important;
+    border-radius: 15px 15px 100px 15px !important;
+  }
+  .container-content .date .input input {
+    font-size: 20px !important;
+  }
+  .container-content .date .input input::-moz-placeholder {
+    font-size: 17px !important;
+  }
+  .container-content .date .input input::placeholder {
+    font-size: 17px !important;
+  }
+  .container-content .res {
+    align-self: center;
+  }
+  .container-content .res div {
+    font-size: 46px !important;
+  }
+  .container .btn {
+    display: block;
+    position: relative;
+    margin: 50px 0px;
+  }
+  .container .btn .btn_calc {
+    position: absolute;
+    left: calc(57% - 65px);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +49,8 @@
   justify-content: center;
 }
 .container .container-content {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   height: 500px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px 15px 190px 15px;
@@ -29,7 +65,8 @@
   gap: 1px;
 }
 .container .container-content .btn .line {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   background-color: none;
   border-bottom: 1px solid hsl(0, 0%, 86%);
 }
@@ -65,7 +102,8 @@
 .container .container-content .date .input input {
   margin-right: 30px;
   margin-left: 5px;
-  width: 120px;
+  width: 80%;
+  max-width: 120px;
   height: 50px;
   border: 1px solid hsl(0, 0%, 86%);
   outline-color: hsl(259, 100%, 65%);

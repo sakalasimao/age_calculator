@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 740px) {
+    
+    .container{
+      background-color: 100vw;
+      
+    }
+
+    .container-content{
+       width: 90%;
+       margin: 15px;
+       padding: 20px 20px 20px 20px !important;
+       border-radius: 15px 15px 100px 15px !important;
+
+       .date .input input{
+        font-size: 20px !important;
+
+        &::placeholder{
+            font-size: 17px !important;
+        }
+        
+       }
+
+       
+
+       .res {
+
+        align-self: center;
+
+        div{
+            font-size: 46px !important;
+        }
+            
+            
+       }
+    }
+    
+    .container .btn{
+        display: block;
+        position: relative;
+        margin: 50px 0px;
+
+        .btn_calc{
+            position: absolute;
+            left: calc(57% - 65px);
+        }
+
+    }
+}

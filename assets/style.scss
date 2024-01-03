@@ -1,5 +1,5 @@
 @import 'partials/variaveis';
-
+@import 'partials/mobile';
 
 *{
     margin: 0;
@@ -17,7 +17,8 @@
     justify-content: center;
 
     .container-content{
-        width: 700px;
+        width: 100%;
+        max-width: 700px;
         height: 500px;
         background-color: $Neutral_White;
         border-radius: 15px 15px 190px 15px;
@@ -32,7 +33,8 @@
         gap: 1px;
        }
        .btn .line{
-        width: 500px;
+        width: 100%;
+        max-width: 500px;
         background-color: none;
         border-bottom: 1px solid $Neutral_Light_grey;
        
@@ -58,6 +60,7 @@
 
        .date{
         display: flex;
+        
 
         .input {
 
@@ -76,7 +79,8 @@
             input{
                 margin-right: 30px;
                 margin-left: 5px;
-                width: 120px;
+                width: 80%;
+                max-width: 120px;
                 height: 50px;
                 border: 1px solid $Neutral_Light_grey;
                 outline-color: $Primary_Purple;
