@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/app.js"></script>
   <title>Age calculator app</title>
 
 </head>
@@ -24,8 +25,8 @@
           <label  class="error">error</label>
         </div>
         <div class="input">
-          <label for="mouthInput">MONTH</label>
-          <input type="text" id="mouthInput" placeholder="MM">
+          <label for="monthInput">MONTH</label>
+          <input type="text" id="monthInput" placeholder="MM">
           <label  class="error">error</label>
         </div>
         <div class="input">
@@ -36,12 +37,12 @@
         
       </div>
 
-      <div class="btn"><div class="line"></div> <button class="btn_calc"><img src="assets/images/icon-arrow.svg" alt="arrow" ></button></div>
+      <div class="btn"><div class="line"></div> <button class="btn_calc" id="btn"><img src="assets/images/icon-arrow.svg" alt="arrow" ></button></div>
       
       <div class="res">
-        <div class="years_res"> <span>--</span> years</div>
-        <div class="months_res"><span>--</span> months</div>
-        <div class="days_res"><span>--</span> days</div>
+        <div class="years_res"> <span id="res_year">--</span> years</div>
+        <div class="months_res"><span id="res_month">--</span> months</div>
+        <div class="days_res"><span id="res_day">--</span> days</div>
       </div>
       
     </div>
